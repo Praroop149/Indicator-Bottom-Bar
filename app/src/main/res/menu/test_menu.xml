@@ -21,9 +21,16 @@
         android:icon="@drawable/ic_explore_black_24dp"
         />
 
-
     <item
         android:id="@+id/itemThree"
+        android:title="Notification"
+        android:enabled="true"
+        android:contentDescription="Profile"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_person_black_24dp"
+        />
+    <item
+        android:id="@+id/itemFour"
         android:title="Profile"
         android:enabled="true"
         android:contentDescription="Profile"
